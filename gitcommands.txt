@@ -1,0 +1,11 @@
+git init  // Create local repository
+git status // current status
+git add . // all modified codes will be stag (git add A.java B.java)
+git commit -m "first commit" // commit stag data to branch
+
+git branch // shows all branch
+git branch newFeatureBranch // create new branch but poited to curent baranch (git checkout newFeatureBranch will change poit to newFeatureBranch)
+git checkout -b newFeatureBranch // create newFeatureBranch and point to it also
+git branch -d  newFeatureBranch // will delete newFeatureBranch but if branch have unmerged data then dont allow if we want forcefully to delete branch then command : git branch -D newFeatureBranch
+
+git remote add origin https://github.com/sbm111/gitcommands.git // connect local repository to remote repository
