@@ -13,4 +13,10 @@ git remote add origin https://github.com/sbm111/gitcommands.git // connect local
 
 git clone https://github.com/sbm111/gitcommands.git
 
-do some edit
+stash commands:
+git stash -u // stash local changes and gives clean directory
+git stash list // shows list of stash 
+git stash show // will show the no of files changes in stash
+git stash apply // will apply stash changes back to directory
+
+
