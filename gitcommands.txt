@@ -12,3 +12,5 @@ git merge newFeatureBranch // merge current branch with newFeatureBranch
 git remote add origin https://github.com/sbm111/gitcommands.git // connect local repository to remote repository
 
 git clone https://github.com/sbm111/gitcommands.git
+
+do some edit
